@@ -1,0 +1,398 @@
+.main-slider	
+	background-color: $bg-main
+	.slider-wrapper 
+		position: relative
+		width: 100%
+		.slide
+			height: 496px
+			.slide_left
+				float: left
+				width: 65%
+				h1 
+					margin: 16.6% 0 16.6% 0
+					color: #49494d
+					font-size: 24px
+					font-weight: 400
+					line-height: 32px
+					text-transform: uppercase
+				.btn-buy 
+					display: block
+					width: 144px
+					height: 46px
+					border: 1px solid $btn-color
+					border-radius: 24px
+					text-align: center
+					color: $btn-color
+					font-size: 16px
+					line-height: 48px
+					font-weight: 300
+					text-transform: uppercase
+					text-decoration: none
+					&:hover 
+						color: white
+						background-color: $btn-color
+			.slide_right
+				float: left
+				width: 35%
+				height: 100%
+				.slide-img
+					position: relative
+					width: 100%
+					height: 100%
+					img 
+						position: absolute
+						top: 14%
+						left: 0
+						width: 100%
+						height: auto
+						z-index: 2
+					.price-block
+						position: absolute
+						z-index: 1
+						top: 50%
+						left: -230px
+						width: 277px
+						height: 90px
+						background-image: linear-gradient(to left, white 0%, transparent 100%)
+						p 
+							margin-top: 29px
+							color: $btn-color
+							font-size: 38px
+							line-height: 1em
+							font-weight: 700
+							text-align: center 
+		.slick-arrow
+			content: ''	
+			position: absolute
+			top: 50% 
+			margin-top: -24px
+			width: 26px
+			height: 48px
+			border: none 
+			outline: none
+			font-size: 0
+		.slick-prev
+			left: -126px
+			background: url("../img/arrow-slide-left.png") no-repeat
+		.slick-next
+			right: -126px
+			background: url("../img/arrow-slide-right.png") no-repeat
+		.slick-dots
+			position: absolute
+			bottom: 10px
+			left: 50%
+			margin-left: -97px
+			width: 194px
+			padding: 0
+			list-style-type: none
+			li 
+				float: left
+				display: block
+				margin-right: 25px
+				&:last-of-type 
+					margin-right: 0
+				button 
+					font-size: 0
+					border: none 
+					outline: none
+					padding: 0
+					width: 48px
+					height: 4px
+					background-color: #d3d6de
+			.slick-active
+				button
+					background-color: $btn-color-two
+
+.about-company
+	.container-left 
+		float: left
+		width: 50%
+		height: 530px
+		background-color: white
+		.container-about
+			margin-left: auto
+			width: 480px
+			padding-right: 65px
+			box-sizing: border-box
+			h1 
+				margin: 20% 0 6% 0
+				color: #49494d
+				font-size: 32px
+				font-weight: 300
+				line-height: 1em
+			p 
+				margin-bottom: 17%
+				color: #49494d
+				font-size: 18px
+				font-weight: 300
+				line-height: 24px
+			.btn-more 
+				display: block
+				width: 192px
+				height: 46px
+				background-color: white
+				border: 1px solid $btn-color
+				border-radius: 23px
+				color: $btn-color
+				font-size: 16px
+				line-height: 48px
+				font-weight: 300
+				text-transform: uppercase
+				text-align: center
+				text-decoration: none
+				&:hover 
+					background-color: $btn-color
+					color: white
+	.container-right
+		float: right
+		width: 50%
+		background-color: $btn-color-two
+		.container-about-slider
+			margin-right: auto
+			width: 480px
+			.slider-about
+				.slide
+					height: 530px
+					padding-left: 65px
+					box-sizing: border-box
+					.date-text
+						margin: 7.5% 0 6.5% 0
+						color: white
+						font-size: 18px
+						font-weight: 300
+						line-height: 1em
+					.name-text
+						margin-bottom: 9.4%
+						color: white
+						font-size: 32px
+						font-weight: 300
+						line-height: 36px
+					.text 
+						color: white
+						font-size: 18px
+						font-weight: 300
+						line-height: 28px
+				.slick-dots
+					position: absolute
+					bottom: 50px
+					left: 65px
+					width: 194px
+					padding: 0
+					list-style-type: none
+					li 
+						float: left
+						display: block
+						margin-right: 25px
+						&:last-of-type 
+							margin-right: 0
+						button 
+							font-size: 0
+							border: none 
+							outline: none
+							padding: 0
+							width: 48px
+							height: 4px
+							background-color: #d3d6de
+					.slick-active
+						button
+							background-color: white
+.order-parts
+	background-color: $bg-main
+	.order-parts_left
+		float: left
+		width: 42%
+		margin-top: 12.3%
+		h1
+			margin-bottom: 40px
+			color: #49494d
+			font-size: 31px
+			font-weight: 300
+			line-height: 36px
+		p 
+			margin-bottom: 40px
+			color: #49494d
+			font-size: 18px
+			line-height: 28px
+			font-weight: 300
+		.btn-parts
+			display: block
+			margin-bottom: 23.6%
+			width: 67.5%
+			height: 46px
+			color: $btn-color-two
+			font-size: 16px
+			line-height: 48px
+			font-weight: 300
+			text-transform: uppercase
+			border: 1px solid $btn-color-two
+			border-radius: 24px
+			text-align: center
+			text-decoration: none
+			&:hover 
+				color: #fff 
+				background-color: $btn-color-two
+	.order-parts_right
+		float: right
+		width: 58%
+		img 
+			margin-top: 35px
+			width: 100%
+			height: auto
+
+.tire 
+	background-color: white
+	padding: 6.25% 0 2.1% 0
+	.tire_left
+		float: left
+		img 
+			width: 304px
+			height: 408px
+	.tire_right
+		float: right
+		width: 445px
+		h1 
+			margin-bottom: 45px
+			margin-top: 40px
+			color: #49494d
+			font-size: 40px
+			line-height: 1em
+			font-weight: 300
+		p 	
+			margin-bottom: 45px
+			color: #49494d
+			font-size: 18px
+			line-height: 28px
+			font-weight: 300
+
+.car-service
+	background-color: $bg-main
+	padding: 11.5% 0
+	.car-service_left
+		float: left
+		width: 47%
+		h1
+			margin-bottom: 6.666%
+			color: #49494d
+			font-size: 40px
+			line-height: 1em
+			font-weight: 300
+		p 
+			margin-bottom: 8.9%
+			color: #49494d
+			font-size: 17px
+			line-height: 28px
+			font-weight: 400
+	.car-service_right
+		float: right
+		position: relative
+		img 
+			position: absolute
+			top: 0 
+			right: -120px
+			width: 601px
+			height: 291px
+
+.store
+	background-color: white
+	padding: 6.25% 0 11.46% 0
+	.store_left
+		float: left
+		position: relative
+		img 
+			position: absolute
+			top: 0
+			left: -60px
+			width: 429px
+			height: 409px
+	.store_right
+		float: right
+		width: 46.4%
+		h1 
+			margin-bottom: 10%
+			margin-top: 9%
+			color: #49494d
+			font-size: 40px
+			line-height: 1em
+			font-weight: 300
+		p 	
+			margin-bottom: 10%
+			color: #49494d
+			font-size: 18px
+			line-height: 28px
+			font-weight: 300
+
+.discount-card
+	background-color: $bg-main
+	padding: 11.5% 0
+	.discount-card_left
+		float: left
+		width: 48.5%
+		h1
+			margin-bottom: 6.5%
+			color: #49494d
+			font-size: 40px
+			line-height: 1em
+			font-weight: 300
+		p 
+			margin-bottom: 8.6%
+			color: #49494d
+			font-size: 17px
+			line-height: 28px
+			font-weight: 400
+	.discount-card_right
+		float: right
+		width: 51.5%
+		img 
+			margin-top: 6.6%
+			width: 100%
+			height: auto
+
+.contacts
+	height: 500px
+	position: relative
+	#map
+		height: 500px
+		z-index: 1
+	.map-info
+		position: absolute
+		top: 0
+		left: 50%
+		margin-left: -480px
+		z-index: 2
+		h1 
+			padding-top: 90px
+			margin-bottom: 50px
+			padding-left: 70px
+			color: #49494d
+			font-size: 32px
+			line-height: 36px
+		.contacts_info
+			padding-left: 70px
+			margin-bottom: 40px
+			position: relative
+			p 
+				color: #49494d
+				font-size: 18px
+				line-height: 1em
+				margin-bottom: 15px
+				&:last-of-type
+					margin-bottom: 0
+			.info__icon
+				position: absolute
+				top: 10px
+				left: 26px
+				display: block
+				width: 24px
+				height: 32px
+			.icon-first
+				background: url("../img/icon-first.png") no-repeat
+			.icon-second
+				background: url("../img/icon-second.png") no-repeat	
+			.contacts_email
+				margin-top: 45px
+				display: inline-block
+				vertical-align: middle
+				color: $btn-color-two
+				font-size: 18px
+				line-height: 1em
+				border-bottom: 1px solid $btn-color-two

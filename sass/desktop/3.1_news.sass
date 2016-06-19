@@ -1,0 +1,115 @@
+.news_container	
+	width: 960px
+	margin: 0 auto
+	background: #fff
+	.breadcrumb
+		width: 100%
+		margin: 20px 0
+		padding: 0
+		display: flex
+		flex-flow: row
+		justify-content: flex-start
+		align-items: center
+		list-style: none
+
+		li
+			+ li::before
+				content: " > "
+			
+			a
+				text-decoration: none
+				color: #919199
+				font-size: 12px
+
+	.news
+		.news_article
+			display: flex
+			flex-flow: column
+			align-items: flex-start
+			justify-content: flex-start
+			border-bottom: 1px solid #f2f2f2
+			.article_wrapper
+				width: 100%
+				height: auto
+				box-sizing: border-box
+				margin: 25px 0
+				padding: 0
+				.article-date
+					color: #a0a0a7
+					text-decoration: none
+				.article-heading
+					font-size: 32px
+					font-weight: 300					
+				.article-img
+					width: 100%
+					height: 290px
+				.first
+					background: url('../img/news_1.png') 50% 50% no-repeat
+				.second
+					background: url('../img/news_2.png') 50% 100% no-repeat
+				.article-text
+					line-height: 1.5
+					margin-bottom: 40px
+					font-size: 14px
+					width: 80%
+					&:first-of-type
+						margin-top: 30px
+				.article_button-more
+					display: inline-block
+					margin-bottom: 20px
+					padding: 15px 30px
+					text-transform: uppercase
+					text-decoration: none
+					border-radius: 30px
+					border: 1px solid $news_button
+					color: $news_button
+					&:hover 
+						color: white 
+						background-color: $news_button
+	.pagination
+		display: flex
+		flex-flow: row
+		justify-content: center
+		padding: 0
+		margin: 40px 0
+		li 
+			display: inline
+			a 
+				color: black
+				float: left
+				padding: 8px 13px
+				text-decoration: none
+				border: 1px solid #ddd
+				margin: 0 20px
+			.active
+				background-color: #4b4b4b
+				color: #c3c3c3
+				border: 1px solid #4b4b4b
+			.controls
+				border: 1px solid $news_button
+				color: $news_button
+
+.article_more
+	width: 960px
+	margin: 0 auto
+	background: #fff
+	.article
+		width: 100%
+		height: auto
+		box-sizing: border-box
+		margin: 25px 0 45px 0
+		padding: 0
+		.article-date
+			color: #a0a0a7
+			text-decoration: none
+		.article-heading
+			font-weight: 300
+		.article_more-img
+			width: 100%
+			height: 290px
+			background: url('../img/news_1.png') 50% 50% no-repeat
+		.article_more-text
+			width: 90%
+			line-height: 1.5
+			&:first-of-type
+				margin-top: 30px

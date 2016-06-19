@@ -1,0 +1,104 @@
+.head-discount
+	min-height: 110px
+	background: url(../img/order-background.jpg) no-repeat
+	background-size: 100% 100%
+	h1
+		font-size: 32px
+		line-height: 32px
+		font-weight: normal
+		color: #ffffff
+		display: inline-block
+		vertical-align: middle
+		margin-top: 40px
+		padding-left: 40px
+.main-discount
+	h2
+		font-size: 24px
+		line-height: 24px
+		font-weight: normal
+		color: #49494d
+		margin: 0
+		margin-top: 30px
+		margin-bottom: 20px		
+	p
+		font-size: 14px
+		line-height: 24px
+		color: #49494d
+		margin: 0
+		margin-bottom: 60px
+	.text-column
+		.head-margin
+			margin-top: 0
+			margin-bottom: 30px
+		float: left
+		h2
+			font-size: 24px
+			line-height: 24px
+			font-weight: normal
+			color: #49494d
+		input[type="text"]
+			width: 100%
+			font-size: 14px
+			height: 44px
+			line-height: 46px
+			padding: 0 15px
+			border: 1px solid #e6e6f2
+			color: #49494d
+			margin-bottom: 30px
+		::-webkit-input-placeholder
+			color: #49494d
+		::-moz-placeholder
+			color: #49494d     
+		:-moz-placeholder  
+			color: #49494d         
+		:-ms-input-placeholder
+			color: #49494d
+		label
+			font-size: 14px
+			line-height: 24px
+			color: #49494d
+			margin-bottom: 30px
+			display: block
+		input[type="checkbox"]
+			display: none
+		input[type="checkbox"]+label
+			position: relative
+			padding-left: 30px
+			cursor: pointer
+			&:before
+				content: ""
+				display: block
+				position: absolute
+				top: 2px
+				left: 0px
+				width: 25px
+				height: 25px
+				background: url("../img/2.png") no-repeat
+		input[type="checkbox"]
+			&:checked+label:before
+				background: url("../img/1.png") no-repeat
+		.btn-orange
+			display: block
+			width: 68%
+			color: #f60
+			padding: 0
+			font-size: 16px
+			line-height: 46px
+			font-weight: 300
+			background: #ffffff
+			text-transform: uppercase
+			outline: none
+			border: 1px solid #f60
+			border-radius: 24px
+			text-align: center
+			text-decoration: none
+			&:hover
+				color: #fff 
+				background-color: #f60
+	.img-column
+		float: right
+		margin-top: 10px
+		width: 50%
+		img
+			width: 100%
+			height: auto

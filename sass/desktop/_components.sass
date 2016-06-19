@@ -1,0 +1,48 @@
+.main-navigation
+	ul
+		padding: 20px 0
+		li
+			display: inline-block
+			vertical-align: middle
+			color: #919199
+			a
+				text-decoration: none
+				font-size: 12px
+				line-height: 12px
+				color: #919199
+//Sanya main-navigation
+.breadcrumb
+	width: 100%
+	margin: 25px 0
+	padding: 0
+	display: flex
+	flex-flow: row
+	justify-content: flex-start
+	align-items: center
+	list-style: none
+
+	li
+		+ li::before
+			content: " > "
+			color: #919199
+		
+		a
+			text-decoration: none
+			color: #919199
+
+.btn-orange
+	display: block
+	width: 254px
+	height: 46px
+	color: $btn-color
+	font-size: 16px
+	line-height: 48px
+	font-weight: 300
+	text-transform: uppercase
+	border: 1px solid $btn-color
+	border-radius: 24px
+	text-align: center
+	text-decoration: none
+	&:hover 
+		color: #fff 
+		background-color: $btn-color

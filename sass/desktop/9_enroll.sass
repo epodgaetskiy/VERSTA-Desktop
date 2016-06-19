@@ -1,0 +1,223 @@
+.enroll-head
+	height: 100px
+	background: url("../img/notice.jpg") no-repeat
+	background-size: 100% 100%
+	h1 
+		padding: 34px 0 0 40px
+		color: #49494d
+		font-size: 32px
+		font-weight: 300
+		line-height: 32px
+		text-transform: uppercase
+.enroll
+	.choice-row-1
+		margin-bottom: 20px
+		.choice_left 
+			float: left
+			width: 405px	
+		.choice_right 
+			float: right
+			width: 405px
+		.choice_left,
+		.choice_right
+			p 
+				margin: 20px 0
+				color: #49494d
+				font-size: 14px
+				line-height: 1em
+				font-weight: 300
+			.choice_items
+				.choice__item
+					float: left
+					width: 170px
+					height: 33px
+					margin-right: 20px
+					padding-top: 15px
+					padding-left: 20px
+					background-color: white
+					border: 1px solid #ebeef7
+					border-radius: 4px	
+					font-size: 0
+					cursor: pointer
+					&:last-of-type
+						margin-right: 0
+					&.active
+						background-color: $btn-color
+						color: white
+						p 
+							color: white
+						.icon-tire
+							background: url("../img/icon-tire-active.png") no-repeat
+						.icon-auto-services
+							background: url("../img/icon-auto-service-active.png") no-repeat	
+						.icon-location
+							background: url("../img/icon-location-active.png") no-repeat
+					.icon-change
+						display: inline-block
+						vertical-align: middle
+						margin-right: 20px
+						width: 20px
+						height: 20px
+					.icon-tire
+						background: url("../img/icon-tire.png") no-repeat
+					.icon-auto-services
+						background: url("../img/icon-auto-service.png") no-repeat
+					.icon-change-loc
+						display: inline-block
+						vertical-align: middle
+						margin-right: 20px
+						width: 20px
+						height: 24px
+					.icon-location
+						background: url("../img/icon-location.png") no-repeat
+					p 
+						margin: 0		
+						display: inline-block
+						vertical-align: middle
+						color: #4d4d4d
+						font-size: 14px
+						font-weight: 400
+		.choice_right
+			.choice_items
+				.choice__item
+					padding-top: 10px
+					height: 38px
+	.choice-row-2
+		margin-bottom: 30px
+		.choice-name 
+			margin-bottom: 10px
+			color: grey
+			font-size: 14px
+			line-height: 1em
+			font-weight: 300
+		table 
+			width: 100%
+			height: 80px
+			background-color: white
+			border: 1px solid #ebeef7
+			border-radius: 4px
+			border-collapse: collapse
+			tr 
+				border: 1px solid #ebeef7
+			th 
+				padding: 5px 0
+				border: 1px solid #ebeef7
+				&.active
+					background-color: #a4afc0
+					p 
+						color: white 
+			.date-prev,
+			.date-next
+				cursor: pointer
+			img 
+				padding-top: 10px
+			.first-month,
+			.second-month
+				margin: 0
+				padding: 0
+				color: #49494d
+				font-size: 10px
+				line-height: 1em
+				font-weight: 300
+				text-transform: uppercase
+			.first-month
+				text-align: right
+				padding-right: 10px
+			.second-month
+				text-align: left
+				padding-left: 10px
+			.choice-date
+				th 
+					padding: 9px 0
+					cursor: pointer
+				p 
+					margin: 0
+					color: #4d4d4d
+					font-size: 13px
+					font-weight: 400
+					text-transform: uppercase
+	.choice-row-3
+		margin-bottom: 20px
+		p
+			margin-bottom: 20px
+			color: #49494d
+			font-size: 14px
+			line-height: 1em
+			font-weight: 300
+		.time 
+			display: inline-block
+			width: 58px
+			height: 48px
+			margin-bottom: 10px
+			margin-right: 10px
+			border: 1px solid #ebeef7
+			border-radius: 4px
+			color: #49494d
+			font-size: 12px
+			font-weight: 300
+			line-height: 50px
+			text-align: center
+			text-decoration: none
+			&.active 
+				background-color: $btn-color
+				color: white
+	.enroll-form
+		margin-bottom: 30px
+		padding: 30px 0
+		background-color: #ebeef7
+		border-radius: 4px
+		text-align: center
+		.form-container
+			display: inline-block
+			input[type="text"]
+				margin-bottom: 40px
+				padding: 0
+				width: 140px
+				height: 14px
+				margin-right: 20px
+				padding: 9px 0 9px 15px
+				border: none 
+				outline: none 
+				border: 1px solid #edeff2
+				border-radius: 4px
+				color: #4d4d4d
+				font-size: 14px
+				line-height: 14px
+				font-weight: 300
+				background-color: white
+				&:last-of-type
+					margin-right: 0
+					background: url('../img/number-rus.png') no-repeat 100% 50%
+				&:last-of-type
+					background-color: white
+				&:last-of-type::-webkit-input-placeholder
+					color: #c7cacf
+				&::-webkit-input-placeholder
+					color: #4d4d4d
+					font-size: 13px
+					line-height: 32px
+			input[type="submit"]
+				margin-bottom: 30px
+				width: 192px
+				height: 40px
+				background-color: $bg-main
+				border-radius: 20px
+				border: none 
+				outline: none
+				color: $btn-color
+				font-size: 16px
+				line-height: 40px
+				font-weight: 400
+				text-transform: uppercase
+				border: 1px solid $btn-color
+				&:hover 
+					background-color: $btn-color
+					color: white
+			p 
+				font-size: 14px
+				line-height: 1.1em
+				color: #49494d
+				font-weight: 300
+			.number 
+				color: black
+				font-weight: 500

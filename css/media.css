@@ -1,0 +1,191 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.car-service .car-service_right img {
+	    position: absolute;
+	    top: 0;
+	    right: -50px;
+	    width: 530px;
+	    height: auto;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.container {
+		margin: 0 auto;
+		width: 750px;
+	}
+
+	.header_menu .menu-open ul li {
+		margin-bottom: 15px;
+	}
+
+	.header_menu .menu_text {
+	    margin-right: 4.15%;
+	}	
+
+	.header_menu .logo {
+	    margin-right: 5.5%;
+	}
+
+	.main-slider .slider-wrapper .slide {
+		height: 400px;
+	}
+
+	.main-slider .container {
+		width: 768px;
+	}
+
+	.main-slider .slider-wrapper .slide .slide_left {
+		box-sizing: border-box;
+		padding-left: 1%;
+	}
+
+	.main-slider .slider-wrapper .slide .slide_right {
+		box-sizing: border-box;
+		padding-right: 1%;
+	}
+
+	.about-company .container-left .container-about {
+		width: 375px;
+		padding-right: 20px;
+	}
+
+	.about-company .container-left .container-about p {
+		margin-bottom: 5%;
+	}
+
+	.about-company .container-right .container-about-slider {
+		width: 375px;
+	}
+
+	.about-company .container-right .container-about-slider .slider-about .slide {
+		padding-left: 20px;
+	}
+
+	.about-company .container-right .container-about-slider .slider-about .slick-dots {
+		left: 20px;
+	}
+
+	.car-service .car-service_right img {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    width: 400px;
+	    height: auto;
+	}
+
+	.store .store_left img {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 370px;
+	    height: auto;
+	}
+
+	.contacts .map-info {
+		left: 9px;
+		margin-left: 0;
+	}
+
+	/*Sanya*/
+	.container-about-page,
+	.news_container,
+	.article_more,
+	.breadcrumb-fb,
+	.heading_feedback .heading-content,
+	.feedback .feedback-item .feedback-wrapper,
+	.postFeedback .postFeedback-heading,
+	.postFeedback .postFeedback-form {
+		width: 750px;
+	}
+	/*tire*/
+	.tire-block .tire-block_left .tire-img-change {
+	    top: 20px;
+	}
+	/*service*/
+	.service-block .service-block_left .service-img-change {
+	    top: 60px;
+	    left: 46px;
+	    width: 90%;
+	}
+	/*shop*/
+	#modal .modal_content .modal_footer .modal_footer-oldPrice, 
+	#modal .modal_content .modal_footer .modal_footer-newPrice {
+		margin-left: 0;
+	}
+
+	#modal .modal_content .modal_body .modal_body-descr .modal_descr-place .modal_descr-contact {
+	    width: 40%;
+	}
+
+	.modal_footer-price {
+		width: 26%;
+	}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
